@@ -8,18 +8,18 @@ spec:
     name: create-webhook
   params:
   - name: GitHubOrg
-    value: "iancoffey"
+    value: "pranathi0608"
   - name: GitHubUser
-    value: "iancoffey"
+    value: "pranathi0608"
   - name: GitHubRepo
-    value: "ulmaceae"
+    value: "https://github.com/Pranathi0608/triggers.git"
   - name: GitHubSecretName
     value: webhook-secret
   - name: GitHubAccessTokenKey
-    value: token
+    value: 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
   - name: GitHubSecretStringKey
     value: secret
-  - name: ExternalDomain
+    name: ExternalDomain
     value: getting-started.iancoffey.com
 #   If you are using github enterprise, provide a value for GitHubDomain
 #  - name: GitHubDomain
